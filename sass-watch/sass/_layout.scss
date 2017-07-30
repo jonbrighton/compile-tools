@@ -1,0 +1,28 @@
+
+body {
+  background: purple;
+  margin: 0;
+}
+
+header,
+.container,
+footer {
+  @include center-block(88%);
+  max-width: 1080px;
+}
+
+.wrapper {
+
+  padding: 1em 0;
+  background: #ffffff;
+  @include border-radius();
+}
+h2 {
+  color: blue;
+}
+p {
+  @extend h2;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}

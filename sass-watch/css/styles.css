@@ -1,0 +1,53 @@
+nav ul {
+  list-style: none;
+  display: flex; }
+  nav ul li {
+    margin-right: 1em; }
+    nav ul li a {
+      box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+      background: #cccccc;
+      padding: 1em 2em;
+      transition: 1s; }
+      nav ul li a:hover {
+        background: gray;
+        border-radius: 0 15px; }
+
+body {
+  background: purple;
+  margin: 0; }
+
+header,
+.container,
+footer {
+  margin: 0 auto;
+  width: 88%;
+  max-width: 1080px; }
+
+.wrapper {
+  padding: 1em 0;
+  background: #ffffff;
+  border-radius: 12px;
+  border: solid 1px; }
+
+h2, p {
+  color: blue; }
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  color: black; }
+
+body {
+  color: black;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif; }
+
+h1 {
+  color: white; }
+
+a {
+  color: orange;
+  text-decoration: none; }
+
+a:hover {
+  color: white; }
